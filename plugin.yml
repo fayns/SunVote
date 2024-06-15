@@ -1,0 +1,25 @@
+name: SunVote
+version: '${project.version}'
+main: com.sunstrike.vote.SunVote
+api-version: '1.16'
+authors: [fayns]
+description: Plugin of Vote
+commands:
+  vote:
+    description: Cast a vote
+    usage: /vote <voteName> <vote>
+    permission: sunvote.vote
+  voteSource:
+    description: Admin command to manage votes
+    usage: /voteSource <create/remove/results/broadcast/reload> <voteName>
+    permission: sunvote.admin
+  votereload:
+    usage: /votereload
+    permission: sunvote.admin
+permissions:
+  sunvote.vote:
+    description: Allows casting a vote
+    default: true
+  sunvote.admin:
+    description: Allows managing votes
+    default: op

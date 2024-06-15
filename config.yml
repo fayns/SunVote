@@ -1,0 +1,11 @@
+messages:
+  vote_created: "Голосование успешно создано!"
+  vote_removed: "Голосование успешно удалено!"
+  vote_casted: "Голос успешно принят!"
+  vote_invalid_number: "Пожалуйста, введите допустимое число для голоса."
+  vote_usage: "Использование: /vote <название_голосования> <голос>"
+  vote_only_players: "Только игроки могут голосовать!"
+  admin_usage: "Использование: /<команда> <create/remove/results/broadcast/reload> <название_голосования>"
+  unknown_action: "Неизвестное действие: "
+  results_header: "Результаты голосования для "
+  reload_success: "Конфигурация успешно перезагружена!"
